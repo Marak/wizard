@@ -2,7 +2,10 @@
   "author": "marak <marak.squires@gmail.com>",
   "name": "wizard",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "prompt": "*",
+    "nconf": "*"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
