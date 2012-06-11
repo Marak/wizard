@@ -4,7 +4,7 @@ var nconf = require('nconf'),
 //
 // Pull app configuration out from config.json file
 //
-nconf.file({ file: './config/development.json' });
+nconf.file({ file: __dirname + '/config/development.json' });
 
 var port = nconf.get('port'),
     host = nconf.get('host');

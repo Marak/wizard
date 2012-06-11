@@ -5,7 +5,7 @@ var wizard = require('../../lib/wizard'),
 //
 // Load schema object from config.schema file ( regular JSON-schema)
 //
-var schema = wizard.load('./config/schema.json');
+var schema = wizard.load(__dirname + '/config/schema.json');
 
 //
 // Run the CLI configuration wizard 

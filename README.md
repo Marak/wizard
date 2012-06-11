@@ -4,9 +4,9 @@ proof of concept configuration wizard
 
 # usage
 
-First, run app configuration install wizard:
+First, run cli app configuration install wizard:
 
-     node examples/helloworld/installer.js
+     node examples/helloworld/cli-installer.js
      
 Second, start your app
 
