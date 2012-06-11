@@ -4,7 +4,7 @@ var nconf = require('nconf'),
 //
 // Pull app configuration out from config.json file
 //
-nconf.file({ file: 'config.json' });
+nconf.file({ file: './config/development.json' });
 
 var port = nconf.get('port'),
     host = nconf.get('host');
@@ -14,6 +14,9 @@ var port = nconf.get('port'),
 //
 http.createServer(function(req, res){
   res.end('Welcome to ' + nconf.get('name'));
+  //
+  // Show settings form
+  //
 }).listen(port, host, function(){
   console.log('Server listening on', host, port);
 });
