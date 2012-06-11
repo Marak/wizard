@@ -1,7 +1,6 @@
 # wizard
 
-proof of concept CLI configuration wizard
-
+proof of concept configuration wizard
 
 # usage
 

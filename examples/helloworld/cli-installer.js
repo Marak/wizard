@@ -5,12 +5,12 @@ var wizard = require('../../lib/wizard'),
 //
 // Load schema object from config.schema file ( regular JSON-schema)
 //
-var schema = wizard.load('./config.schema');
+var schema = wizard.load('./config/schema.json');
 
 //
 // Run the CLI configuration wizard 
 //
-wizard.run(schema, function(err, results){
+wizard.cli.run(schema, function(err, results){
 
   if(err){
     console.log(err);
@@ -21,6 +21,14 @@ wizard.run(schema, function(err, results){
   //
 
   fs.writeFileSync('./config.json', JSON.stringify(results));
+
+  //
+  // Now that the app is configured, see if user wants to start it!
+  // 
+  
+  //
+  // TODO: Cli prompt for starting
+  //
 
 });
 
