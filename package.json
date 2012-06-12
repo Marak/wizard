@@ -2,9 +2,9 @@
   "author": "marak <marak.squires@gmail.com>",
   "name": "wizard",
   "version": "0.0.0",
+  "main": "./lib/wizard",
   "dependencies": {
-    "prompt": "*",
-    "nconf": "*"
+    "prompt": "*"
   },
   "devDependencies": {},
   "optionalDependencies": {},
