@@ -1,6 +1,6 @@
 # wizard
 
-proof of concept configuration wizard
+a configuration tool for node.js apps.
 
 # usage
 
@@ -11,5 +11,3 @@ First, run cli app configuration install wizard:
 Second, start your app
 
      node examples/helloworld/server.js
-     
-Third, read the source ( it's small )

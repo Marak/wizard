@@ -1,7 +1,7 @@
 {
   "author": "marak <marak.squires@gmail.com>",
   "name": "wizard",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/wizard",
   "dependencies": {
     "prompt": "*"
