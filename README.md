@@ -1,3 +1,5 @@
+# Note to self: Don't ask @substack for feedback on upcoming projects
+
 # wizard
 
 a configuration tool for node.js apps.
