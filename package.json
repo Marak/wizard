@@ -8,6 +8,7 @@
   },
   "devDependencies": {},
   "optionalDependencies": {},
+  "main": "./lib/wizard",
   "engines": {
     "node": "*"
   }
