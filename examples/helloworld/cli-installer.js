@@ -10,7 +10,9 @@ var schema = wizard.load(__dirname + '/config/schema.json');
 //
 // Run the CLI configuration wizard 
 //
-wizard.cli.run(schema, function(err, results){
+// You can both run using an already loaded schema or the path
+// wizard.cli.run(schema, function(err, results){
+wizard.loadAndRun(__dirname + '/config/schema.json', function(err, results){
 
   if(err){
     console.log(err);
