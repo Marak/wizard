@@ -20,7 +20,7 @@ wizard.cli.run(schema, function(err, results){
   // After the wizard completes, write the results to the config.json file
   //
 
-  fs.writeFileSync('./config.json', JSON.stringify(results));
+  fs.writeFileSync(__dirname + '/config/development.json', JSON.stringify(results));
 
   //
   // Now that the app is configured, see if user wants to start it!
